@@ -48,11 +48,48 @@ body {
     font-weight: 300;
     letter-spacing: 2px;
 }
+#box label {
+    display: block;
+    font-weight: 600;
+    font-size: 19px;
+}
+#box input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+#box input:not([type="submit"]){
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f1c40f;
+    padding: 15px 0;
+    outline: none;
+    color: antiquewhite;
+    font-size: 17px;
+}
+#box input[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #f39c12;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+#box input[type="submit"]:hover {
+    background-color: #f1c40f;
+    transition: 0.7s;
+}
 #box a {
     text-decoration: none;
     font-size: 13px;
     color: #aaa;
+    transition: 0.7s;
 }
 #box a:hover {
     color: #ccc;
+    transition: 0.7s;
 }
